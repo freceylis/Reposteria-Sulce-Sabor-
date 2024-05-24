@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #4db9b9;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+header img{
+    width: 500px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 25px;
+}
+
+header nav ul li a:hover{
+    color: rgba(31, 30, 30, 0.137);
+}
+
+.content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.product-item {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 289px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    color: #ff6b6b;
+    margin: 1rem 0 0.5rem;
+}
+
+.product-item p {
+    line-height: 1.4;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
